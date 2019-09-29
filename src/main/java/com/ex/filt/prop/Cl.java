@@ -1,11 +1,8 @@
 package com.ex.filt.prop;
 
-import org.springframework.beans.factory.annotation.Value;
 
 public class Cl {
-	@Value("${c}")
-	String s;
-	public void f() {
+	public void f(String s) {
 		System.out.println(s);
 	}
 
