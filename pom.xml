@@ -19,7 +19,7 @@
 	</properties>
 	
 	<scm>
-	<developerConnection>scm:svn:https://github.com/pulkit9796/mavn-rel.git</developerConnection>
+	<developerConnection>scm:svn:https://github.com/pulkit976/mavn-rel.git</developerConnection>
 	  <tag>prop-0.0.1</tag>
   </scm>
 	
