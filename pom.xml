@@ -16,10 +16,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<kuchhbhi>from pom</kuchhbhi>
 		<v>[,5]</v>
+		<GIT_USERNAME>pulkit9796</GIT_USERNAME>
+		<GIT_PASSWORD>p1u2lkit</GIT_PASSWORD>
 	</properties>
 	
+	
 	<scm>
-	<developerConnection>scm:svn:https://github.com/pulkit976/mavn-rel.git</developerConnection>
+	<developerConnection>scm:git:https://${GIT_USERNAME}:${GIT_PASSWORD}@s@github.com/pulkit9796/mavn-rel.git</developerConnection>
 	  <tag>prop-0.0.1</tag>
   </scm>
 	
