@@ -1,8 +1,9 @@
-node('docker') {
+node() {
     checkout scm
     stage('Build') {
-        docker.image('maven:3.3.3').inside {
+    echo 'yey2'
+        
             sh 'mvn --version'
-        }
+        
     }
 }
