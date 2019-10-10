@@ -17,9 +17,9 @@ node() {
         }
 
 
-        
-        
-            bat(/git status/)
+         withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
+      sh echo "well"
+    }
         
 
         
