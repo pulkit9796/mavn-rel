@@ -9,16 +9,16 @@ node() {
     checkout scm
     echo 'yey2'
         try{
-        git status
+        
             sh echo "mil gya"
         }finally {
             echo "go"
-            
+            withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
+      sh echo "well"
         }
 
 
-         withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
-      sh echo "well"
+         
     }
         
 
