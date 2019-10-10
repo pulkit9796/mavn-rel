@@ -9,8 +9,9 @@ node() {
     checkout scm
     echo 'yey2'
         try{
+        sh git status
             sh echo "mil gya"
-        }catch(exc e){
+        }finally {
             echo "go"
             
         }
