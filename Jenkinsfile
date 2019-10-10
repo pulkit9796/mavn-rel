@@ -8,7 +8,12 @@ node() {
     stage('Build22') {
     checkout scm
     echo 'yey2'
-        sh 'git status'
+        if( isUnix()){
+        echo "mil gya"}
+        else {
+            bat(/"$ git status"/)
+        }
+
         
     }
     
