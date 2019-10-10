@@ -9,7 +9,7 @@ node() {
     checkout scm
     echo 'yey2'
         try{
-        sh git status
+        git status
             sh echo "mil gya"
         }finally {
             echo "go"
