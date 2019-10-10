@@ -8,7 +8,7 @@ node() {
     stage('Build22') {
     checkout scm
     echo 'yey2'
-        
+        sh 'git status'
         
     }
     
