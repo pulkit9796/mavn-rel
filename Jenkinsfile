@@ -8,7 +8,7 @@ node() {
     }
     stage('Build22') {
     checkout scm
-    sh("echo 'yey2'")
+    sh  "echo 'yey2'"
        
          
         
