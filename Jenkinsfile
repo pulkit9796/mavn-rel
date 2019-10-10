@@ -8,8 +8,15 @@ node() {
     stage('Build22') {
     checkout scm
     echo 'yey2'
+        try{
+            sh echo "mil gya"
+        }catch(exc e){
+            echo "go"
+            
+        }
+
+
         
-        sh echo "mil gya"
         
             bat(/git status/)
         
