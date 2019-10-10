@@ -1,9 +1,15 @@
 node() {
-    checkout scm
+    
     stage('Build') {
-    echo 'yey2'
+    echo 'yey1'
         
-            sh 'mvn --version'
         
     }
+    stage('Build22') {
+    checkout scm
+    echo 'yey2'
+        
+        
+    }
+    
 }
