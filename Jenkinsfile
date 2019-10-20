@@ -13,7 +13,7 @@ node() {
 	stage('mvn_stage') {
 	def MVN_PATH=tool name: 'mvn_tool', type: 'maven'
 	
-	echo "it is ${MVN_PATH}"
-	bat "mvn clean install"
+	echo "it is ${MVN_PATH}/bin/mvn"
+	bat "{MVN_PATH}/bin/mvn clean install"
     }
 }
