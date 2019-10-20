@@ -8,7 +8,7 @@ node() {
     }
     stage('Build22') {
     checkout scm
-    sh label: '', script: 'echo \"Hello World\"'
+    bat label: '', script: 'echo \"Hello World\"'
        
          
         
