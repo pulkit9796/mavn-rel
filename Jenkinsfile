@@ -14,6 +14,6 @@ node() {
 	def MVN_PATH=tool name: 'mvn_tool', type: 'maven'
 	
 	echo "it is ${MVN_PATH}"
-	bat "mvn_tool clean install"
+	bat "mvn clean install"
     }
 }
