@@ -2,7 +2,7 @@
 node() {
     
     stage('Build') {
-    echo 'yey1'
+    echo 'yey11'
         
         
     }
