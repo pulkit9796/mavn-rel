@@ -12,10 +12,9 @@ stage('mmmmmm') {}
     }
 	stage('mvn_stage') {
 	def MVN_PATH=tool name: 'mvn_tool', type: 'maven'
-	def  MVN_CMD="${MVN_PATH}/bin"
+	def  MVN_CMD="${MVN_PATH}/bin/mvn"
 	echo "it is ${MVN_CMD}/bin/mvn"
-	bat "cd ${MVN_CMD}"
-	bat "mvn clean install"
+	bat "call ${MVN_CMD} clean install"
     } 
     
 }
