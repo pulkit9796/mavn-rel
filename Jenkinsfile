@@ -19,7 +19,7 @@ stage('mmmmmm') {}
     
     stage('docking docking'){
     def DOC_PATH=tool name: 'docker_tool', type: 'org.jenkinsci.plugins.docker.commons.tools.DockerTool'
-    def DOC_CMD="${DOC_PATH}/docker"
+    def DOC_CMD="${DOC_PATH}/docker/completion/bash/docker"
     echo  "${DOC_CMD} ok"
         bat " \"${DOC_CMD}\" build -t myy/app"
     }
