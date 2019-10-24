@@ -17,4 +17,9 @@ stage('mmmmmm') {}
 	bat " \"${MVN_CMD}\" clean install"
     } 
     
+    stage('docking docking'){
+        bat 'docker build -t myy/app'
+    }
+
+    
 }
